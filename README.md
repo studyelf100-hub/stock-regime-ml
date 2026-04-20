@@ -1,4 +1,4 @@
-# 📈 Stock Market Regime Detection & Mean-Reversion Strategy
+#  Stock Market Regime Detection & Mean-Reversion Strategy
 ### A Machine Learning Approach to Identifying Market States for Algorithmic Trading
 
 > **Built by a high school student exploring quantitative finance and machine learning.**  
@@ -6,7 +6,7 @@
 
 ---
 
-## 🧠 The Core Idea
+##  The Core Idea
 
 Markets don't behave the same way all the time. Sometimes prices trend strongly (momentum regime); other times they oscillate around a mean (mean-reversion regime). Most retail strategies fail because they apply one approach in all conditions.
 
@@ -16,7 +16,7 @@ This project uses a **Hidden Markov Model (HMM)** to detect which regime the mar
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 stock-regime-ml/
@@ -47,7 +47,7 @@ stock-regime-ml/
 
 ---
 
-## 🔧 Installation
+##  Installation
 
 ```bash
 # Clone the repo
@@ -64,7 +64,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🚀 Quickstart
+## Quickstart
 
 ```bash
 # Run the full pipeline on SPY (S&P 500 ETF) from 2015–2024
@@ -81,7 +81,7 @@ jupyter notebook notebooks/full_analysis.ipynb
 
 ---
 
-## 📊 Methodology
+## Methodology
 
 ### 1. Data Collection
 - Historical OHLCV data fetched via `yfinance` (no API key needed)
@@ -146,7 +146,7 @@ ELSE:
 
 ---
 
-## 🧪 Model Performance
+## Model Performance
 
 ```
 Regime Classification Report (Test Set):
@@ -162,7 +162,7 @@ Feature importances (top 3): `atr_14`, `bb_width`, `trend_strength`
 
 ---
 
-## 💡 What I Learned
+##  What I Learned
 
 - **HMMs** are powerful for modeling latent (hidden) states in time series — the market doesn't tell you what regime it's in, you have to infer it
 - **Lookahead bias** is the #1 mistake in backtesting. I used walk-forward validation to ensure the model only ever trains on past data
@@ -172,7 +172,7 @@ Feature importances (top 3): `atr_14`, `bb_width`, `trend_strength`
 
 ---
 
-## 🔮 Future Work
+## Future Work
 
 - [ ] Add a **3rd regime**: crisis/crash detection (fat-tail volatility)
 - [ ] Test on **international indices** (DAX, Nikkei) for out-of-sample validation
@@ -182,7 +182,7 @@ Feature importances (top 3): `atr_14`, `bb_width`, `trend_strength`
 
 ---
 
-## 📚 References & Resources
+##  References & Resources
 
 - Rabiner, L.R. (1989). *A Tutorial on Hidden Markov Models*
 - Prado, M.L. de (2018). *Advances in Financial Machine Learning*
@@ -192,10 +192,10 @@ Feature importances (top 3): `atr_14`, `bb_width`, `trend_strength`
 
 ---
 
-## 📬 Contact
+##  Contact
 
-Built by [Your Name] | Grade 11 | Interested in quantitative finance & ML research  
-📧 youremail@email.com | [LinkedIn](https://linkedin.com) | [GitHub](https://github.com)
+Built by [Esther. A] | Grade 11 | Interested in quantitative finance & ML research  
+📧 estheradeolaawe@gmail.com
 
 ---
 
